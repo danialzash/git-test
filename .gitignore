@@ -1,0 +1,9 @@
+#ignore All files in ANY directory named temp
+temp/
+
+
+#Ignore All files with .txt extention, except the ones in 'temp2' folder.
+#Unless the file name is junk
+*.txt
+!temp2/*.txt
+junk.*
